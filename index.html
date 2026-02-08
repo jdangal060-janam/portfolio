@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Profile</title>
+
+    <style>
+        /* RESET */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Segoe UI", Arial, sans-serif;
+        }
+
+        body {
+            min-height: 120vh;
+            display: flex;
+            flex-direction: column;
+            background-color: #f4f6f8;
+            border: 10px solid green;
+        }
+
+        /* HEADER */
+        .header {
+            background-color:greenyellow;
+            padding: 15px 40px;
+
+        }
+
+        .header nav a {
+            color: red;
+            text-decoration: none;
+            margin-right: 200px;
+            
+            
+        
+        }
+
+        .header nav a:hover {
+            text-decoration: underline;
+        
+        }
+
+        /* MAIN CONTENT */
+        .content {
+            flex: 1;
+            max-width: 1500px;
+            margin: 40px auto;
+            background-color:blanchedalmond;
+            display: flex;
+            padding: 40px;
+            border: 1px solid #dcdcdc;
+        }
+
+        /* PROFILE SECTION */
+        .profile {
+            width: 200px;
+            text-align: center;
+            border-right: 2px solid #e0e0e0;
+            
+        }
+
+        .profile img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border: 1px solid #ccc;
+        }
+
+        /* DETAILS SECTION */
+        .details {
+            padding-left: 40px;
+        }
+
+        .details h2 {
+            margin-bottom: 15px;
+            color: #2c3e50;
+        }
+
+        .details p {
+            margin-bottom: 10px;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .details a {
+            display: inline-block;
+            margin-top: 15px;
+            color: #d7d9db;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .details a:hover {
+            text-decoration: underline;
+        }
+
+        /* FOOTER */
+        .footer {
+            background-color: #eceef0;
+            color: red;
+            text-align: center;
+            padding: 12px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <div class="header">
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </div>
+
+    <!-- CONTENT -->
+    <div class="content">
+        <div class="profile">
+            <img src="\janam\janam-image.jpg" alt="Profile Picture">
+        </div>
+
+        <div class="details">
+            <h2>Janam Dangal</h2>
+            <p><strong>Age:</strong> 16 years</p>
+            <p><strong>Address:</strong> Kulung, Bhojpur</p>
+            <p><strong>Institution:</strong> Xavier International College</p>
+
+            <a href="https://xaviercollege.edu.np" target="_blank">
+                <img src = "images/image.png" alt="Xavier International College Logo" width="100px" height="50px">
+            </a>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+        <p>Email: janamdangal064@gmail.com</p>
+    </div>
+
+</body>
+</html>

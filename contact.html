@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact Me</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            background-color: #f4f4f4;
+        }
+
+        /* MAIN CONTAINER */
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 40px 20px;
+            display: flex;
+            gap: 40px;
+        }
+
+        /* LEFT SECTION */
+        .profile {
+            flex: 1;
+            text-align: center;
+        }
+
+        .profile img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            border: 3px solid #333;
+            margin: 20px 0;
+        }
+
+        .profile h1 {
+            color: #c94a7c;
+            margin-bottom: 10px;
+        }
+
+        .profile p {
+            margin: 6px 0;
+            font-size: 16px;
+        }
+
+        /* RIGHT SECTION */
+        .social {
+            flex: 1;
+            padding-top: 80px;
+        }
+
+        .social h3 {
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .social ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .social li {
+            margin-bottom: 10px;
+            font-size: 15px;
+        }
+
+        .social a {
+            text-decoration: none;
+            color: #c94a7c;
+            font-weight: 500;
+        }
+
+        .social a:hover {
+            text-decoration: underline;
+        }
+
+        /* FOOTER */
+        footer {
+            margin-top: auto;
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 12px;
+            font-size: 14px;
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .social {
+                padding-top: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- LEFT -->
+        <div class="profile">
+            <h1>Contact Me</h1>
+
+            <img src="janam-image.jpg" alt="Profile Picture">
+
+            <p><strong>Email:</strong> janamdangal064@gmail.com</p>
+            <p><strong>Phone:</strong> 9819899749</p>
+            <p><strong>Address:</strong> Kulung, Bhojpur</p>
+        </div>
+
+        <!-- RIGHT -->
+        <div class="social">
+            <h3>Social Media</h3>
+            <ul>
+                <li><a href="https://www.facebook.com/janam.dangal">Facebook – Janam Dangal</a></li>
+                <li><a href="https://www.instagram.com/janam.dangal">Instagram – Dangaljanam</a></li>
+                <li>WhatsApp: 9819899749</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <footer>
+        &copy; 2024 Janam Dangal. All rights reserved.
+    </footer>
+
+</body>
+</html>
